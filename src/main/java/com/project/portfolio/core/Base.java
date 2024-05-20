@@ -26,6 +26,7 @@ public class Base {
 
     @Column(name = "deleted_at")
     private LocalDateTime deletedAt;
+
     @Column(name = "last_modified")
     private LocalDateTime lastModified;
 

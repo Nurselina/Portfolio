@@ -26,6 +26,8 @@ public class Blog extends Base {
     @JoinColumn(name = "skill_id")
     private Skill skill;
 
+    @Column(name = "isActive")
+    private boolean isActive;
 
 
 

@@ -27,16 +27,16 @@ public class Project extends Base {
     private String detail;
 
     @Column(name = "project_date")
-    private LocalDate project_date;
+    private LocalDate projectDate;
 
     @Column(name = "skill_id")
-    private int skill_id;
+    private int skill;
 
     @Column(name = "live_site_link")
-    private String live_site_link;
+    private String liveSiteLink;
 
     @Column(name = "github_link")
-    private String github_link;
+    private String githubLink;
 
 
 }
